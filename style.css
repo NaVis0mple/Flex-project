@@ -11,8 +11,6 @@
     font-size: 24px;
     font-weight: bold;
     padding: 50px 200px;
-    display: flex;
-    justify-content: space-between;
 }
 .colorfont2 {    
     font-size: 18px;
@@ -24,22 +22,32 @@
 .head {
     display: flex;
     padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-sec {
 }
 
 
 /* part2 */
-.maintext {
+.part2 {
     display: flex;
-
+    justify-content: space-between;
+    min-height: 250px;
 }
-
 .lefta {
-    display: flex;
-    flex-flow: column;
+    display: flex ;
+    flex-flow: column wrap;
     font-size: 48px;
     font-weight: bolder;
-    gap: 20px;
     justify-content: space-between;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    word-wrap: break-word;
 }
 
 .buttom {
@@ -74,4 +82,8 @@ ul {
 a {
     text-decoration: none;
     color: aquamarine;
+}
+
+img {
+    max-width: 300px;
 }
