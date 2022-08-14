@@ -157,8 +157,17 @@
     border-radius: 10px;
     margin-right:  60px;
     margin-left: 60px;
-
 }
+
+/* part6 */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: medium;
+}
+
 
 
 ul {
