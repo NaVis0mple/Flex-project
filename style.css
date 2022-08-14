@@ -23,12 +23,13 @@
     display: flex;
     padding-top: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 250px;
 }
 /* part2 */
 .part2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 250px;
 }
 .lefta {
