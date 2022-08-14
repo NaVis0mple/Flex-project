@@ -38,6 +38,7 @@
     font-size: 48px;
     font-weight: bolder;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .card {
